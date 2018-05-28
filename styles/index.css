@@ -1,0 +1,72 @@
+body {
+  font-family: "Microsoft YaHei";
+  background-color: #F7F7F7;
+}
+
+header {
+  text-align: center;
+}
+
+.essay-title {
+  font-size: 1.2rem;
+
+  margin: 30px 40px 10px 40px;
+}
+
+.author {
+  font-size: 0.8rem;
+  color: #949494;
+}
+
+.content {
+  margin-bottom: 48px;
+}
+ul {
+  list-style: none;
+  padding: 0.9rem;
+  margin: 0;
+
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+li {
+  border-top: 1px solid #EEE;
+}
+
+li.active {
+  color: #C67E5B;
+}
+
+footer {
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 3rem;
+  text-align: center;
+
+  border-top: 1px solid #EEE;
+  background-color: #FFF;
+}
+
+.pre, .pre-page {
+  float: left;
+}
+
+.left, .right {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.next, .next-page {
+  float: right;
+}
+
+.pre, .pre-page, .next, .next-page {
+  padding-left: 16px;
+  padding-right: 16px;
+}
